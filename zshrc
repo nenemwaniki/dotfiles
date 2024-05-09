@@ -73,3 +73,4 @@ export PYTHONBREAKPOINT=ipdb.set_trace
 sudo /etc/init.d/postgresql start
 
 eval "$(rbenv init - zsh)"
+export PATH="/usr/bin/python3:$PATH"
